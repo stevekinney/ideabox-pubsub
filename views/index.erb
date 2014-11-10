@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Slacker</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="stylesheets/fonts.css">
-        <link rel="stylesheet" href="stylesheets/main.css">
-    </head>
-    <body>
-        <div class="container">
-            <header>
-              <h1>Ideabox</h1>
-            </header>
-
-            <%= yield %>
-        </div>
-        <script src="/faye/client.js"></script>
-        <script src="/jquery.min.js"></script>
-        <script src="/ideabox.js"></script>
-    </body>
-</html>
-
+<div id="idea-input">
+  <input type="text" placeholder="A great idea" id="idea-text">
+  <input type="submit" id="idea-submit">
+</div>
