@@ -1,6 +1,6 @@
-$ideaText = $('#idea-text');
-$ideaSubmit = $('#idea-submit');
-$ideaList = $('#ideas');
+$ideaText = $('#good-idea-text');
+$ideaSubmit = $('#good-idea-submit');
+$ideaList = $('#good-ideas');
 
 var client = new Faye.Client('/faye');
 var subscription = client.subscribe('/ideas', function(idea) {
